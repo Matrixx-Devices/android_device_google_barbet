@@ -7,7 +7,6 @@
 # Inherit some common Lineage stuff.
 TARGET_DISABLE_EPPE := true
 DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
-WITH_GMS := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit device configuration
