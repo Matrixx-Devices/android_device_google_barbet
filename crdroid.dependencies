@@ -8,7 +8,7 @@
   {
     "repository": "LineageOS/scripts",
     "target_path": "lineage/scripts",
-    "branch": "lineage-21",
+    "branch": "main",
     "remote": "github"
   }
 ]
