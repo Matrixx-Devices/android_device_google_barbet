@@ -1684,17 +1684,10 @@ function presign() {
     sed -i "s|vendor/${1}$|vendor/${1};PRESIGNED|g" "${_output_file}"
 }
 
-<<<<<<< HEAD
-=======
-function require() {
-    sed -i "s|vendor/${1}$|vendor/${1};REQUIRED=${2}|g" "${_output_file}"
-}
-
 function symlink() {
     sed -i "s|vendor/${1}$|vendor/${1};SYMLINK=${2}|g" "${_output_file}"
 }
 
->>>>>>> d1b18b3 (barbet: Mark CNE symlink target as required package)
 function as_module() {
     sed -i "s|vendor/${1}$|-vendor/${1}|g" "${_output_file}"
 }
