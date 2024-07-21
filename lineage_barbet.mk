@@ -14,6 +14,23 @@ $(call inherit-product, device/google/redbull/lineage_common.mk)
 
 include device/google/barbet/device-lineage.mk
 
+# Matrixx
+MATRIXX_BUILD_TYPE := Unofficial
+MATRIXX_MAINTAINER := 306bobby
+MATRIXX_CHIPSET := SM7250
+MATRIXX_BATTERY := 4680mah
+MATRIXX_DISPLAY := 1080x2340
+
+# Matrixx Flags
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_INCLUDE_PIXEL_FRAMEWORK := true
+TARGET_EXCLUDES_AUDIOFX := true
+TARGET_EXCLUDES_AUXIO := true
+TARGET_EXCLUDES_VIA := true
+TARGET_PIXEL_BOOT_ANIMATION_RES := 1080
+TARGET_IS_PIXEL := true
+
+
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 5a
